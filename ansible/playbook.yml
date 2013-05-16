@@ -23,7 +23,7 @@
     - name: install ntpd and ntpdate
       action: yum pkg=$item state=installed
       with_items:
-        - ntpd
+        - ntp
         - ntpdate
 
     - name: enable and start ntpd
