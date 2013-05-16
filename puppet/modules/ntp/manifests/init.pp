@@ -1,6 +1,6 @@
 class ntp {
   package { "ntp":
-    name => $operationsystem ? {
+    name => $operatingsystem ? {
       RedHat,CentOS,Fedora => "ntp",
       default              => "ntp"
     }
