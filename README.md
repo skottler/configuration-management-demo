@@ -6,9 +6,13 @@ configuration management and orchestration options.
 
 ### Puppet
 
+  puppet apply manifests/nodes.pp --modulepath=modules
+
 ### Chef
 
 ### Ansible
+
+  ansible-playbook playbook.yml
 
 ### Salt
 
